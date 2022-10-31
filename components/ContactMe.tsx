@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 import { PhoneIcon, MapPinIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
 import { useForm, SubmitHandler } from "react-hook-form";
@@ -25,7 +26,7 @@ function ContactMe({ pageInfo }: Props) {
         <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">Contact</h3>
 
         <div className='flex flex-col space-y-10'>
-            <h4 className='text-4xl font-semibold text-center'>
+            <h4 className='text-3xl font-semibold text-center'>
                 I have just what you need. {" "}
                 <span className='decoration-[#F7AB0A]/50 underline'>Let's Talk.</span>
             </h4>
